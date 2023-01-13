@@ -15,7 +15,8 @@ justify-content: center;
 grid-auto-rows: auto;
 grid-template-columns: repeat(3, 1fr);
 grid-gap: 15px 20px;
-max-width: 1200px;`
+max-width: 1200px;
+`;
 
 export const ListTitle = styled.p`
 margin-top: 10px;
@@ -34,7 +35,6 @@ export const Element = styled.li`
   display: block;
   align-items: center;
   border-radius: 5px;
-
 `;
 
 export const FilmImage = styled.img`
@@ -58,10 +58,9 @@ export const FilmLink = styled(Link)`
     transform: scale(1.05);
     box-shadow: 0px -4px 28px rgba(0, 0, 0, 0.25), 0px 10px 10px rgba(0, 0, 0, 0.22);
   }
-  
 `;
 
 export const FilmTitle = styled.p`
 margin-top: 8px;
 margin-bottom: 8px;
-`
+`;

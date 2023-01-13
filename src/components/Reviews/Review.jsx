@@ -17,14 +17,16 @@ const Review = () => {
     return <Article>We don't have any reviews for this movie</Article>;
 
   return (
-    <ul>
+    <>
+      <ul>
       {results.map(el => (
         <Article key={el.id}>
           <Author>Author: {el.author}</Author>
           <p>{el.content}</p>
         </Article>
       ))}
-    </ul>
+      </ul>
+    </>
   );
 };
 
